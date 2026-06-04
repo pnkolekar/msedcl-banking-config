@@ -1,0 +1,13 @@
+logging:
+  file:
+    name: logs/customersAccounts.log
+build:
+ version: "1.0.x"
+txncontact:
+  message: "WELCOME TO MSEDCL BANK CUSTOMER RELATED QUERIES (prod)"
+  contactDetails:
+    name: "PRASAD"
+    email: "prasad@msedcl.com"
+  inCallSupport:
+    - 1234567890
+    - 9876543210

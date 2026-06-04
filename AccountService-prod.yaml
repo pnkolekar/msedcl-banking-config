@@ -1,0 +1,13 @@
+logging:
+  file:
+    name: logs/customersAccounts.log
+build:
+ version: "1.0.x"
+txncontact:
+  message: "WELCOME TO MSEDCL BANK ACCOUNT RELATED QUERIES (PROD)"
+  contactDetails:
+    name: "shatir"
+    email: "shatir@msedcl.com"
+  inCallSupport:
+    - 1234567890
+    - 9876543210
