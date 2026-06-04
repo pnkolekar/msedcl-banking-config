@@ -4,7 +4,7 @@ logging:
 build:
  version: "1.0.x"
 txncontact:
-  message: "WELCOME TO MSEDCL BANK TRANSCATION RELATED QUERIES-productoion"
+  message: "WELCOME TO MSEDCL BANK TRANSCATION RELATED QUERIES-xxx"
   contactDetails:
     name: "Shailesh"
     email: "shailesh@msedcl.com"
