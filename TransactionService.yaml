@@ -1,0 +1,28 @@
+
+spring:
+  application:
+    name: "04_TransactionService"
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: root123
+    url: jdbc:mysql://localhost:3306/transactions_db
+  profiles:
+    active:
+      - "prod" 
+server:
+  port: 8282
+
+logging:
+  file:
+    name: logs/customersAccounts.log
+build:
+ version: "1.0.x"
+txncontact:
+  message: "WELCOME TO MSEDCL BANK TRANSCATION RELATED QUERIES "
+  contactDetails:
+    name: "shatir"
+    email: "shatir@msedcl.com"
+  inCallSupport:
+    - 1234567890
+    - 9876543210
